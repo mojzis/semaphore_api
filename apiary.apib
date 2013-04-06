@@ -21,16 +21,8 @@ Get a message with an id
 GET /message/xHkrd
 < 200
 < Content-Type: application/json
-{"actorPoses": ["-11,9|-5,117|-11,99|-11,89|-11,79|-11,59|-16,34|-21,9|-6,34|-1,9|-18,79|-18,59|30,79|20,59",
+{"messageText": "message", "actorPoses": ["-11,9|-5,117|-11,99|-11,89|-11,79|-11,59|-16,34|-21,9|-6,34|-1,9|-18,79|-18,59|30,79|20,59",
     "-11,9|-5,117|-11,99|-11,89|-11,79|-11,59|-16,34|-21,9|-6,34|-1,9|-18,79|-18,59|30,79|20,59"]}
-
-Get a message with an id and receive help, too
-GET /message/xHkrd?help
-< 200
-< Content-Type: application/json
-{"messageText": "message",  "actorPoses": ["-11,9|-5,117|-11,99|-11,89|-11,79|-11,59|-16,34|-21,9|-6,34|-1,9|-18,79|-18,59|30,79|20,59",
-    "-11,9|-5,117|-11,99|-11,89|-11,79|-11,59|-16,34|-21,9|-6,34|-1,9|-18,79|-18,59|30,79|20,59"]}
-
 
 Get a different message with an id
 GET /message/xxx
